@@ -1,0 +1,58 @@
+.custom-modal {
+    background-color: white;
+    color: black;
+}
+
+.modal-content {
+    padding: 40px 20px;
+}
+
+.modal-content {
+    width: 300px;
+}
+
+.row {
+    display: flex;
+    margin-top: 6px;
+}
+
+.col1 {
+    flex: 1;
+    float: left;
+}
+
+.col2 {
+    flex: 3;
+    width: 80%;
+}
+
+.col2 input, select {
+    padding: 5px;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.close {
+    padding: 5px;
+    float: right;
+    cursor: pointer;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.submit {
+    padding: 5px 17px;
+    border-radius: 5px;
+}
+
+input.ng-touched.ng-invalid {
+    border: 1px solid red;
+}
+
+input.form-submitted.ng-invalid{
+    border: 1px solid red;
+}
+

@@ -1,0 +1,12 @@
+.beverages-menuList {
+    border: 1px solid #fff;
+    height: 100%;
+}
+
+.beverage-item {
+    padding: 10px;
+    margin: 15px;
+    text-align: center;
+    background-color: rgb(150, 223, 56);
+    color: black
+}

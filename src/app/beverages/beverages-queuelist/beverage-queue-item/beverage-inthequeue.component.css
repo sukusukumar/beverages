@@ -1,0 +1,20 @@
+.beverage-inTheQueueList, .beverage-beingMixedList, .beverage-readyToCollectList {
+    margin-top: 5px;
+}
+
+.beverage-inTheQueueItem, .beverage-beingMixedItem, .beverage-readyToCollectItem {
+    padding: 0px;
+    margin: 15px;
+    text-align: center;
+    background-color: rgb(229, 141, 48);;
+    color: black
+}
+
+.item-name {
+    padding: 8px;
+}
+
+.customer-name {
+    background-color: #fff;
+    padding: 3px;
+}

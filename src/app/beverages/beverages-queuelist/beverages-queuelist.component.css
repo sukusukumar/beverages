@@ -1,0 +1,16 @@
+.beverages-queueList {
+    border: 1px solid #fff;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.beverage-inTheQueue, .beverage-beingMixed, .beverage-readyToCollect {
+    flex: 1;
+    margin: 10px;
+    flex-basis: 300px;
+}
+
+.beverage-inTheQueueTitle, .beverage-beingMixedTitle, .beverage-readyToCollectTitle {
+    text-align: center;
+}

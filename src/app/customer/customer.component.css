@@ -1,0 +1,25 @@
+.beverages-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100%;
+    padding: 5px;
+}
+.beverages-menu {
+    flex: 1;
+    padding: 5px;
+    margin: 15px;
+    flex-basis: 220px;
+}
+.beverages-queue {
+    flex: 3;
+    padding: 5px;
+    margin: 15px;
+    flex-basis: 660px;
+}
+
+.bevarages-menuTitle, .beverages-queueTitle {
+    text-align: center;
+    margin: 10px 0px;
+    cursor: pointer;
+}
